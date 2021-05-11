@@ -1,0 +1,98 @@
+.main-container{
+    width: 100%;
+}
+
+.nav-container{
+    /* width:100%; */
+    display: flex;
+    background-color:darkslategrey;
+    height: 100%;
+}
+
+.menu{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    min-width: 200px;
+    padding-top: 35px;
+}
+
+/* h1{
+    color: blanchedalmond; */
+/* } */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    }
+
+#banner-image{
+    width: 100%;
+    opacity: 0.8;
+    }
+
+.banner-title{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 2.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:ivory;
+}
+
+.banner-subtitle{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.project-container{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link, a:visited {
+    background-color:cornsilk;
+    color:black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  .education-container{ 
+    position: absolute;
+    top:00%;
+    left: 70%;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    }
+.hobbies-container{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 50px;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.rate-container{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    right: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
