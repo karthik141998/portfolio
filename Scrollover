@@ -1,1 +1,149 @@
 
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?cs=srgb&dl=pexels-tyler-lastovich-699122.jpg&fm=jpg.jpig");
+    min-height: 100%;
+    color: blueviolet;
+
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?cs=srgb&dl=pexels-c%C3%A1tia-matos-1072179.jpg&fm=jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?cs=srgb&dl=pexels-negative-space-92904.jpg&fm=jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:black;
+    
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+<html>
+    <title>My Resume </title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styling.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+        <div class="bgimg-1">
+            <div class="caption" style="color: DarkSlateGray;">
+                <span class="border"> Karthik Kumar N</span><br>
+                <span class="border"> Ph:- 9738608105</span><br>
+                <span class="border"> Email:- karthikkumar141998@gmail.com</span>
+            </div>
+        </div>
+    
+        <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h3 style="text-align:center;"> About Me </h3>
+            <p>  <li> Completed my SSLC Board Examination on 2014 in Mysore</li>
+                <li> Completed my secondary Education on 2016 in Mysore</li>
+                <li> Completed my graduation on 2018-19 in Mysore</li>
+                <li> Getting certified on Full Stack Development with Netzwerk Acamadmy, Bangalore</li></p>
+          </div>
+        </div>
+
+          <div class="bgimg-2">
+            <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Below are the sample projects
+
+            </span>
+            </div>
+          </div>
+
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <ul> <li>Truning On and Off Buld using Javascript</li>
+                <li>Created My Resume using HTML, CSS and Javascript</li>
+                <li>Built forms using HTML</li>
+                <li> Small projects using python </li>                
+            </ul>
+               </div>
+          </div>
+          
+          <div class="bgimg-3">
+            <div class="caption">
+            <b><span class="border" style="background-color:transparent;font: size 2em;;color:Salmon;"> Course Completed</span></b>
+            <b> <ul class="border" style="background-color:transparent;font: size 3em;;color:Salmon;">
+                <li> Python</li>
+                <li> HTML</li>
+                <li> CSS </li>
+                <li> Javascript</li>
+                <li> Django</li>                
+            </ul>
+            </b>
+        </div>
+          </div>
+
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>Below are the hobbies </p>
+            <ul>
+                <li> Music</li>
+                <li> Reading</li>
+                <li> Playing Sports	 </li>
+                <li> Blogging</li>
+                <li> Donating Blood </li>                
+            </ul>
+            </div>
+          </div>
+          
+          <div class="bgimg-1">
+            <div class="caption">
+            <span class="border">Please feel free to contact me </span>
+            </div>
+        </div>
+          
+
+
+
+
+
+
+    </body>
+</html>
